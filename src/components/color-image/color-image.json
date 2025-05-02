@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_color_image_color_images",
+  "info": {
+    "displayName": "colorImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "colorPicker": {
+      "displayName": "colorPicker",
+      "type": "component",
+      "repeatable": true,
+      "component": "color-image.color-picker",
+      "required": true
+    }
+  }
+}
